@@ -1,0 +1,14 @@
+# Mock .wslsync config for testing
+# Base directory for Windows system
+windows_base = tests/mock_windows_source
+
+# Base directory for WSL2 system
+wsl2_base = tests/mock_wsl2_dest
+
+# Relative paths for target files in Windows system
+files = [
+    "documents/config.txt",
+    "documents/notes.md",
+    "scripts/backup.sh",
+    "projects/app/main.py"
+]

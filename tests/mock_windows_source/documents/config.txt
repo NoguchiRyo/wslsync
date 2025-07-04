@@ -1,0 +1,4 @@
+# Configuration file for testing
+debug = true
+log_level = info
+sync_interval = 30

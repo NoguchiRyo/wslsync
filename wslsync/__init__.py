@@ -9,13 +9,18 @@ __version__ = "0.1.0"
 __author__ = "WSL Sync Tool"
 __email__ = "noreply@example.com"
 
-from .config import WSLSyncConfig, parse_config, validate_config, get_default_config_path
+from .config import (
+    WSLSyncConfig,
+    get_default_config_path,
+    parse_config,
+    validate_config,
+)
 from .sync import WSLSyncEngine
 from .utils import setup_logging
 
 __all__ = [
     "WSLSyncConfig",
-    "parse_config", 
+    "parse_config",
     "validate_config",
     "get_default_config_path",
     "WSLSyncEngine",
